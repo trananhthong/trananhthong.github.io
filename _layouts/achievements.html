@@ -1,0 +1,21 @@
+---
+layout: page
+# The Achievements page.
+---
+
+<div id="achievements" class="pl-xl-2">
+{% for year in site.data.resume_info.achievement_list %}
+  {% capture this_year %}{{ year.value }}{% endcapture %}
+  <span class="lead", style="color: var(--link-color);" >{{this_year}}</span>
+  <ul class="list-unstyled">
+    {% for achievement in year.achievement_list%}
+      <li>
+        <div>
+          <span class="achievement"> {{ achievement }} </span>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+</div>
+

@@ -1,0 +1,209 @@
+experience_list:
+  - job: 
+    title: Research Assistant
+    company: Probabilistic Machine Learning Group, Aalto University 
+    start: May 2020
+    end: May 2021 
+    details:
+      - text:
+        content: Co-authored a paper on a likelihood-free inference method for state-space models
+      - text:
+        content: Conducted literature review on related inference methods such as Gaussian process state-space models and particle filters
+      - text:
+        content: Modified the ELFI library to support state-space model simulation and inference
+      - text:
+        content: Analysed and discussed the final experimentation results
+  
+  - job: 
+    title: Teaching Assistant
+    company: School of Computer Science, Aalto University
+    start: Sep 2019  
+    end: Dec 2020 
+    details:
+      - text:
+        header: Data Science Project
+        content: Supported a group of 4 students by organizing weekly meetings and providing feedback for the 3-month project on natural language processing
+      - text:
+        header: Programming Studio 2
+        content: Monitored the progress of more than 20 students with a variety of project topics and reviewed their codes to provide feedback and final grading
+      - text:
+        header: Programming 1
+        content: Assisted students with their weekly Scala programming assignments by helping with debugging and suggesting good programming practices
+  
+  - job: 
+    title: Peer Tutor
+    company: School of Mechanical and Aerospace Engineering, Nanyang Technological University
+    start: Sep 2014 
+    end: Dec 2016 
+    details:
+      - text:
+        content: Helped students with homework for Engineering Mathematics and Heat Transfer courses
+
+  - job: 
+    title: Engineering Intern
+    company: Avetics Global Pte Ltd 
+    start: Jan 2014 
+    end: May 2016 
+    details:
+      - text:
+        content: Assembled, maintained, and tested Unmanned Aerial Vehicles (UAVs)
+      - text:
+        content: Designed and fabricated parts by Computer Numerical Control and 3D printing
+      - text:
+        content: Assisted in various operational tasks of the company
+
+  - job: 
+    title: Translator
+    company: Fluke South East Asia Pte Ltd
+    start: Oct 2013 
+    end: Nov 2013 
+    details:
+      - text:
+        content: Translated Technical Datasheet from English to Vietnamese to support customers in Vietnam
+
+
+skill_list:
+  - category:
+    title: Programming Languages
+    icon: fas fa-code
+    subcategories:
+      - skills:
+        - Python
+        - Scala
+        - R
+        - SQL
+        - Matlab
+        - C++
+
+  - category:
+    title: Libraries
+    icon: fas fa-layer-group
+    subcategories:
+      - skills: 
+        - NumPy
+        - PyTorch
+        - pandas
+        - ELFI
+        - scikit-learn
+        - Stan
+        - statsmodels
+
+  - category:
+    title: Tools
+    icon: fas fa-terminal
+    subcategories:
+      - skills: 
+        - Command Line
+        - Git
+        - Linux
+        - Overleaf
+        - Jekyll
+
+  - category:
+    title: Studies
+    icon: fas fa-book
+    subcategories:
+      - skills: 
+        - Simulation Methods
+        - Bayesian Statistics
+        - Likelihood-free Inference 
+      - skills: 
+        - Optimization
+        - Operation Research
+        - Financial Engineering
+      - skills: 
+        - Aerospace Engineering 
+
+  - category:
+    title: Languages
+    icon: fas fa-language
+    subcategories:
+      - skills: 
+        - English      
+        - Vietnamese
+
+
+education_list:
+  - degree: 
+    title: Master of Science - Machine Learning, Data Science and Artificial Intelligence
+    school: Aalto University
+    location: Espoo, Finland 
+    start: Aug 2020
+    end: Jun 2022
+    details:
+      - text: Accepted to Honour Program
+      - text: Awarded with full scholarship for Master Program
+    gpa: 4.33/5
+
+  - degree: 
+    title: Bachelor of Science - Data Science
+    school: Aalto University 
+    location: Espoo, Finland 
+    start: Aug 2018
+    end: Sep 2020
+    details:
+      - text: Awarded with full scholarship for Undergraduate Program
+      - text: "Thesis: A study on approximate Bayesian computation"
+    gpa: 4.66/5
+
+  - degree: 
+    title: Bachelor of Engineering - Aerospace Engineering
+    school: Nanyang Technological University 
+    location: Singapore 
+    start: Aug 2013
+    end: Jun 2017
+    details:
+      - text: Awarded with ASEAN Undergraduate Scholarship to pursue undergraduate program
+      - text: "Final Year Project: Design and Manufacturing of a VTOL UAV by 3D Printing"
+    gpa: 4.45/5
+
+  - degree: 
+    title: High School Diploma - Physics Major
+    school: High School for the Gifted, Vietnam National University
+    location: Ho Chi Minh City, Vietnam 
+    start: Aug 2010
+    end: Jun 2013
+    details:
+      - text: Graduated in the top 5% of my class
+      - text: Competed in city-level and national-level Physics competitions
+    gpa: 9.2/10
+
+
+achievement_list:
+  - year:
+    value: 2020
+    achievement_list: 
+      - Aalto Master Honour Program
+      - Full scholarship for Aalto Master's Program
+      - First to graduate from Aalto Data Science Bachelor's Program
+
+  - year:
+    value: 2018
+    achievement_list: 
+      - Full scholarship for Aalto Data Science Bachelor's Program
+
+  - year:
+    value: 2013
+    achievement_list: 
+      - Full scholarship for NTU Engineering Bachelor's Program
+      - First prize in Ho Chi Minh City High School Physics competition
+
+  - year:
+    value: 2012
+    achievement_list: 
+      - Silver medal in Vietnamese Southern Region High School Physics competition
+      - First prize in Ho Chi Minh City High School Physics competition
+
+  - year:
+    value: 2011
+    achievement_list: 
+      - Participated in National High School Physics competition
+
+  - year:
+    value: 2010
+    achievement_list: 
+      - First place in entrance exam for High School for the Gifted
+      - First prize in Ho Chi Minh City Secondary School Physics competition
+      - First prize in Ho Chi Minh City Secondary School English competition
+      - Third prize in Ho Chi Minh City Secondary School Online Mathematics competition
+

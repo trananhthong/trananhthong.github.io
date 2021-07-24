@@ -1,0 +1,30 @@
+---
+layout: page
+# Experience
+---
+
+
+{% for job in site.data.resume_info.experience_list %}
+  <h3 style="text-transform: uppercase;"> {{ job.title }} </h3>
+  <p>
+    <span style="font-size:1.1rem;"> <b> {{ job.company }} </b></span> <br>
+    <span style="color: var(--link-color);"> <i> {{ job.start }} - {{ job.end }} </i></span> 
+  <ul>
+    {% for point in job.details %}
+      <li>
+        <div>
+        {% if point.header %}
+          <span> <strong> {{ point.header }}: </strong> {{ point.content }} </span>
+        {% else %}
+          <span> {{ point.content }} </span>
+        {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if forloop.last %}
+  {% else %}
+  <hr>
+  {% endif %}
+{% endfor %}
+

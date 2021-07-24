@@ -1,0 +1,30 @@
+---
+layout: page
+# Skills
+---
+
+
+{% for category in site.data.resume_info.skill_list %}
+  {% if forloop.first %}
+  {% else %}
+  <br>
+  {% endif %}
+  <p style="text-align: center; font-size: 1.5rem"> <i class= "fa-fw {{ category.icon }}" style="color: var(--link-color); "></i> <strong> {{ category.title }} </strong> </p>
+  {% for subcategory in category.subcategories %}
+    <div style="text-align: center; font-size: 1.2rem"> 
+      {% for skill in subcategory.skills %} 
+        <span> {{skill}} </span>
+        {% if forloop.last %}
+        {% else %}
+          <span> &nbsp;&nbsp; </span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+  {% if forloop.last %}
+  {% else %}
+  <hr>
+  {% endif %}
+
+{% endfor %}

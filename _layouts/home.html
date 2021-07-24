@@ -1,0 +1,36 @@
+---
+layout: page
+# The Home layout
+---
+
+
+<br>
+<h1 style="padding-top: 3rem;">Hi, I'm Thong Tran, </h1>
+<br>
+<p><strong>I am a problem solver.</strong></p>
+<p> I always find it rewarding to work with new challenges and technologies. By working to understand the problems - their variables, constraints, and objectives - I strive for optimal solutions that are elegant, efficient, and adaptable. </p>
+<p> Contact me here: </p>
+<br>
+<div style="text-align: center; font-size: 2rem"> 
+  {% for entry in site.data.contact %}
+  {% capture url %}
+    {%- if entry.type == 'github' -%}
+      https://github.com/{{ site.github.username }}
+    {%- elsif entry.type == 'twitter' -%}
+      https://twitter.com/{{ site.twitter.username }}
+    {%- elsif entry.type == 'email' -%}
+      {% assign email = site.social.email | split: '@' %}
+      javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+    {%- else -%}
+      {{ entry.url }}
+    {%- endif -%}
+  {% endcapture %}
+
+  {% if url %}
+  <a href="{{ url }}" aria-label="{{ entry.type }}" class="icon-block" style="color: #888888">
+    <i class="{{ entry.icon }}"></i>
+  </a>
+  {% endif %}
+  <span> &nbsp; </span>
+{% endfor %}
+</div>

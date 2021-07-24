@@ -1,0 +1,29 @@
+---
+layout: page
+# Education
+---
+
+
+{% for degree in site.data.resume_info.education_list %}
+  <h3> {{ degree.title }} </h3>
+  <p>
+    <span style="font-size:1.05rem;"> <b> {{ degree.school }} - {{degree.location}} </b></span> <br>
+    <span style="color: var(--link-color);"> <i> {{ degree.start }} - {{ degree.end }} </i></span> 
+  <ul>
+    {% for point in degree.details %}
+      <li>
+        <div>
+          <span> {{ point.text }} </span>
+        </div>
+      </li>
+    {% endfor %}
+      <li>
+        <span> <strong>GPA:</strong> {{degree.gpa}} </span>
+      </li>
+  </ul>
+  {% if forloop.last %}
+  {% else %}
+  <hr>
+  {% endif %}
+{% endfor %}
+

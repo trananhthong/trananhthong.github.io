@@ -1,0 +1,124 @@
+/*
+  Style for Achievements page
+*/
+
+%date-timeline {
+  content: "";
+  width: 4px;
+  left: 75px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  background-color: var(--timeline-color);
+}
+
+
+div#achievements {
+  letter-spacing: 0.03rem;
+
+  span.lead {
+    font-size: 1.5rem;
+    position: relative;
+    left: 8px;
+
+    &::after { /* Year dot */
+      content: "";
+      display: block;
+      position: relative;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      top: -26px;
+      left: 63px;
+      border: 3px solid;
+      background-color: var(--timeline-year-dot-color);
+      border-color: var(--timeline-node-bg);
+      box-shadow: 0 0 2px 0 #c2c6cc;
+      z-index: 1;
+    }
+
+    &:not(:first-child) {
+      position: relative;
+      left: 4px;
+      &::after {
+        left: 67px;
+      }
+    }
+
+  } // #achievements span.lead
+
+  ul {
+    li {
+      font-size: 1rem;
+      line-height: 3rem;
+      div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+        span.achievement {
+          /* Achievement title */
+          margin-left: 6rem;
+          position: relative;
+          top: 0.1rem;
+
+          &::before {
+            /* A dot for achievement */
+            content: "";
+            display: inline-block;
+            position: relative;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+            float: left;
+            top: 1.35rem;
+            left: 69px;
+            background-color: var(--timeline-node-bg);
+            box-shadow: 0 0 3px 0 #c2c6cc;
+            z-index: 1;
+          }
+        }
+      }
+      &:nth-child(odd) {
+        background-color: var(--main-wrapper-bg, #fff);
+        background-image: linear-gradient(to left, #fff, #fbfbfb, #fbfbfb, #fbfbfb, #fff);
+      }
+
+      &::after {
+        @extend %date-timeline;
+
+        height: 2.8rem;
+        top: -1.3rem;
+      }
+
+      &:first-child::before {
+        @extend %date-timeline;
+
+        height: 3.0rem;
+        top: -1.61rem;
+      }
+    }
+
+    &:not(:last-child) > li:last-child::after {
+      height: 3.4rem;
+    }
+
+    &:last-child > li:last-child::after {
+      display: none;
+    }
+  } // #achievements ul
+
+} // #achievements
+
+@media all and (max-width: 576px) {
+  #achievements {
+    margin-top: -1rem;
+    ul {
+      letter-spacing: 0;
+    }
+  }
+}
