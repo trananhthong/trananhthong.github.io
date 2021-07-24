@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Impact on Credit Loss Modelling
 author: Thong Tran
-date: 2021-06-07 12:00:00 +0200
+date: 2021-06-07 12:00:01 +0200
 categories: [Project, Aalto]
 tags: [merton-vasicek, quasi moment matching, credit risk, covid-19, optimization, python, torch]
 math: true

@@ -1,7 +1,7 @@
 ---
 title: A Study on Approximate Bayesian Computation
 author: Thong Tran
-date: 2020-04-17 12:00:00 +0200
+date: 2020-04-17 12:00:01 +0200
 categories: [Project, Aalto]
 tags: [abc, likelihood-free inference, python, data science]
 math: true
