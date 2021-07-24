@@ -6,7 +6,7 @@ layout: page
 <div id="achievements" class="pl-xl-2">
 {% for year in site.data.resume_info.achievement_list %}
   {% capture this_year %}{{ year.value }}{% endcapture %}
-  <span class="lead", style="color: var(--link-color);" >{{this_year}}</span>
+  <span class="lead" style="color: var(--link-color);" >{{this_year}}</span>
   <ul class="list-unstyled">
     {% for achievement in year.achievement_list%}
       <li>
