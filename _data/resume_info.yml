@@ -10,7 +10,7 @@ experience_list:
       - text:
         content: Conducted literature review on related inference methods such as Gaussian process state-space models and particle filters
       - text:
-        content: Modified the ELFI library to support state-space model simulation and inference
+        content: Modified and augmented the ELFI library to support state-space model simulation and inference
       - text:
         content: Analysed and discussed the final experimentation results
   
@@ -59,7 +59,7 @@ experience_list:
     end: Nov 2013 
     details:
       - text:
-        content: Translated Technical Datasheet from English to Vietnamese to support customers in Vietnam
+        content: Translated technical datasheets and product interfaces from English to Vietnamese to support customers in Vietnam
 
 
 skill_list:
@@ -183,9 +183,14 @@ achievement_list:
       - Full scholarship for Aalto Data Science Bachelor's Program
 
   - year:
+    value: 2014
+    achievement_list: 
+      - Participated in Undergraduate Research Experience on CAmpus Program
+
+  - year:
     value: 2013
     achievement_list: 
-      - Full scholarship for NTU Engineering Bachelor's Program
+      - Full scholarship for NTU Aerospace Engineering Bachelor's Program
       - First prize in Ho Chi Minh City High School Physics competition
 
   - year:

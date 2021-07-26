@@ -2,7 +2,7 @@
 layout: skills
 title: Skills
 icon: fas fa-tools
-order: 4
+order: 2
 ---
 
 <p style="text-align: center; font-size: 1.5rem"> <i class="fas fa-code fa-fw" style="color: var(--link-color);"></i> <strong> Programming Languages </strong> </p>

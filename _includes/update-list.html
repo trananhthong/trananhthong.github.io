@@ -22,3 +22,5 @@
 {% for entry in all_list limit:MAX_SIZE %}
   {% assign update_list = update_list | push: entry %}
 {% endfor %}
+
+{% assign update_list = all_list | reverse %}

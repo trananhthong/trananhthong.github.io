@@ -2,5 +2,5 @@
 layout: achievements
 title: Achievements
 icon: fas fa-check
-order: 6
+order: 4
 ---

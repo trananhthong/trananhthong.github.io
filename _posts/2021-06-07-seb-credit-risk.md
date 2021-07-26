@@ -20,7 +20,7 @@ The single-factor MV model only considers a single economic factor to predict th
 
 ## Implementation
 
-As there were different data sources involved, a data pipeline was created to standardize the data from both SEB and GCD rating migration datasets and integrate economic data from open data sources. The multi-factor MV model was implemented and optimized using `PyTorch`. SEB data was used as the test port folio to measure the performance of different combination of models and economic factors.
+As there were different data sources involved, a data pipeline was created to standardize the data from both SEB and GCD rating migration datasets and integrate economic data from open data sources. The multi-factor MV model was implemented and optimized using `PyTorch`. SEB data was used as the test portfolio to measure the performance of different combination of models and economic factors.
 
 ## Additional Resources
 
