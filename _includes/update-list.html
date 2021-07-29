@@ -15,7 +15,7 @@
   {% endif %}
 {% endfor %}
 
-{% assign all_list = all_list | sort | reverse %}
+{% assign all_list = all_list | sort %}
 
 {% assign update_list = "" | split: "" %}
 
@@ -23,4 +23,3 @@
   {% assign update_list = update_list | push: entry %}
 {% endfor %}
 
-{% assign update_list = all_list | reverse %}
