@@ -1,5 +1,20 @@
 experience_list:
   - job: 
+    title: Risk Analyst
+    company: Risk Management, OP Financial Group 
+    start: March 2022
+    end: Present 
+    details:
+      - text:
+        content: Design and build data pipeline to facilitate deposit modelling using Databricks and Snowflake
+      - text:
+        content: Analyze customer behavior using transaction data
+      - text:
+        content: Develop and maintain data control reports for monitoring quality of data used for risk reporting
+      - text:
+        content: Improved existing data pipeline for independent price verification process
+
+  - job: 
     title: Research Assistant
     company: Probabilistic Machine Learning Group, Aalto University 
     start: May 2020
@@ -69,11 +84,13 @@ skill_list:
     subcategories:
       - skills:
         - Python
+        - SQL
         - Scala
         - R
-        - SQL
         - Matlab
         - C++
+        - HTML
+        - CSS
 
   - category:
     title: Libraries
@@ -81,21 +98,23 @@ skill_list:
     subcategories:
       - skills: 
         - NumPy
-        - PyTorch
         - pandas
-        - ELFI
+        - Spark
+        - PyTorch
         - scikit-learn
-        - Stan
         - statsmodels
+        - Stan
 
   - category:
     title: Tools
     icon: fas fa-terminal
     subcategories:
       - skills: 
-        - Command Line
+        - Databricks 
         - Git
-        - Linux
+        - Snowflake
+        - AWS
+        - Command Line
         - Overleaf
         - Jekyll
 
@@ -103,6 +122,10 @@ skill_list:
     title: Studies
     icon: fas fa-book
     subcategories:
+      - skills: 
+        - Time Series Clustering
+        - Forecasting
+        - Neural Networks 
       - skills: 
         - Simulation Methods
         - Bayesian Statistics
@@ -129,8 +152,9 @@ education_list:
     school: Aalto University
     location: Espoo, Finland 
     start: Aug 2020
-    end: Jun 2022
+    end: Jun 2024
     details:
+      - text: Graduated with honours
       - text: Accepted to Honour Program
       - text: Awarded with full scholarship for Master Program
     gpa: 4.33/5
@@ -170,6 +194,11 @@ education_list:
 
 
 achievement_list:
+  - year:
+    value: 2024
+    achievement_list: 
+      - Graduated from Aalto Master's Program with honours
+
   - year:
     value: 2020
     achievement_list: 

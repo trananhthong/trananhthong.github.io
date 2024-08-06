@@ -3,7 +3,7 @@
 
 platforms:
   -
-    type: Twitter
+    type: X
     icon: "fab fa-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
   -

@@ -17,7 +17,7 @@ timezone: Europe/Helsinki
 # --------------------------
 title: Thong Tran                          # the main title
 
-tagline: Data Science Student   # it will display as the sub-title
+tagline: Aspiring pipeline builder and admirer of automation   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Personal website
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Anh Thong Tran
-  email: thong.tran@aalto.fi             # change to your email address
+  email: t.anhthong1308@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage

@@ -17,6 +17,7 @@
   {% if include.prefix %}prefix="{{ include.prefix }} "{% endif%}
   {% if include.prep %}prep="{{ include.prep }}"{% endif %} >
 
+  <!--
   {% assign this_year = site.time | date: "%Y" %}
   {% assign post_year = include.date | date: "%Y" %}
 
@@ -25,6 +26,9 @@
   {% else %}
     {{ include.date | date: post_long_df }}
   {% endif %}
+  -->
+  
+  {{ include.date | date: post_long_df }}
 
   <i class="unloaded">{{ include.date | date_to_xmlschema }}</i>
 
