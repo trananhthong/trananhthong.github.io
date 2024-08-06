@@ -22,7 +22,7 @@ jobs:
 
       before_install:
         # match the Gemfile.lock, travis' bundler is 2.1.2
-        - gem install bundler:2.2.4
+        - gem install bundler:2.1.4
         - bundle config path 'vendor/bundle'
 
       install:
