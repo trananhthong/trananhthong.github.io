@@ -22,12 +22,13 @@ layout: page
     {% assign sub_categories = "" | split: "" %}
 
     {% for post in posts_of_category %}
-      {% assign second_category = post.categories[1] %}
-      {% if second_category %}
-        {% unless sub_categories contains second_category %}
-          {% assign sub_categories = sub_categories | push: second_category %}
-        {% endunless %}
-      {% endif %}
+      {% for sub_category in post.categories %}
+        {% if sub_category != category_name %}
+          {% unless sub_categories contains sub_category %}
+            {% assign sub_categories = sub_categories | push: sub_category %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
 
     {% assign sub_categories = sub_categories | sort %}
