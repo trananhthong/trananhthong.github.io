@@ -6,11 +6,11 @@ experience_list:
     end: Present 
     details:
       - text:
-        content: Design and build data pipeline to facilitate deposit modelling using Databricks and Snowflake
+        content: Design and build a data pipeline to facilitate deposit modelling using Databricks and Snowflake
       - text:
         content: Analyze customer behavior using transaction data
       - text:
-        content: Develop and maintain data control reports for monitoring quality of data used for risk reporting
+        content: Develop and maintain data control reports for monitoring isk reporting data quality
       - text:
         content: Improved existing data pipeline for independent price verification process
 
